@@ -1,15 +1,7 @@
-# Ignore Python cache
-__pycache__/
-*.pyc
+# Ignore everything
+*
 
-# Ignore temporary files
-.DS_Store
-*.log
-tmp/
-
-# Ignore fonts if not needed for web (optional, keeping them for now based on folder structure)
-# *.ttf
-
-# Ignore markdown and PDF source files if only the web report is needed (optional)
-# *.md
-# *.pdf
+# But keep these
+!docs/
+!docs/**
+!.gitignore
